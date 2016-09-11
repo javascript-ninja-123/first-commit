@@ -1,0 +1,254 @@
+@font-face{
+	font-family:teko-bold;
+	src:url("Teko-Bold.ttf");
+}
+@font-face{
+	font-family:teko-medium;
+	src:url("Teko-Medium.ttf");
+}
+body{
+	margin:0;
+	padding:0;
+	font-family:teko-medium;
+}
+.navbar{
+	background-color:#352d2f;
+
+}
+.navbar-brand{
+background-color:red;
+	text-align:center;
+
+
+}
+.logo{
+	color:white;
+	text-align:center;
+	font-size:15px;
+	margin-top:-30% !important;
+	width:90%;
+	display:block;
+	background-color:red;
+}
+#navbar ul li a{
+color:white;
+font-size:15px;
+font-weight:400;
+}
+#navbar ul li a:hover{
+	border-bottom:3px white solid;
+
+}
+.active-border{
+	border-bottom:3px white solid;
+
+}
+#home{
+height:100%;
+margin-top:3%;
+background-color:#352d2f;
+}
+#home h1{
+	color:white;
+	margin-top:15% !important;
+	text-align:center;
+	width:70%;
+	margin: 0 auto;
+	font-family:teko-medium;
+	letter-spacing:5px;
+	font-size:75px;
+}
+#home button{
+	
+	color:white;
+	margin-top:3% !important;
+	background-color:#352d2f;
+	border:1px solid white;
+	width:14%;
+	font-size:11px;
+	padding:1% 0;
+	margin:0 auto;
+	display:block;
+}
+#home .arrow{
+	color:white;
+	margin-top:1%;
+	text-align:center;
+
+}
+#home p{
+	color:white;
+	font-family:teko-medium;
+	text-align:center;
+	margin-bottom:3%;
+	margin-top:-2%;
+}
+#home p a {
+	text-decoration:none;
+	color:white;
+}
+#content2 {
+	margin-top:4%;
+	margin-bottom:3%;
+	height:100%;
+}
+#content2 h1{
+	width:60%;
+	margin:0 auto;
+	text-align:center;
+}
+#content2 a{
+	margin-top:1.4% !important;
+	margin:0 auto;
+	width:10%;
+	display:block;
+}
+#project{
+	height:100%;
+}
+#project .redbox{
+	background-color:#f63c3c;
+	color:white;
+	padding-top:17%;
+	padding-bottom:4.4%;
+	height:100%;
+
+}
+#project .textgroup{
+	margin-left:7%;
+}
+#project .project-text{
+	width:50%;
+	font-family:sans-serif;
+}
+#project .purplebox{
+	background-color:#352d2f;
+	color:white;
+	height:100%;
+
+}
+#project .purplebox h3{
+	padding-top:10%;
+}
+#project .project-text2{
+	padding-bottom:10%;
+	width:40%;
+}
+#project .darkbox{
+	background-color:#30282a;
+color:white;
+height:100%;
+}
+#project .darkbox h3{
+	padding-top:10.4%;
+}
+#project .findout{
+height:100%;
+background-color:#30282a;
+text-align:center;
+padding:1% 0;
+}
+#project .findout a{
+	color:white;
+	border-bottom: 2px solid white;
+	padding-bottom:0.5%;
+}
+
+#about{
+	margin-top:3%;
+	margin-bottom:3%;
+	height:100%;
+}
+#about p{
+	color:red;
+}
+#about h5{
+	font-weight:600;
+}
+#about .about-text{
+	color:black;
+	width:80%;
+}
+#about h3{
+	margin-top:4%;
+	font-weight:700;
+}
+#about .box-icon{
+	background-color:#30282a;
+	width:150px;
+	height:150px;
+	float:left;
+	margin-right:2%;
+	margin-top:1%;
+}
+#about .box-icon a{
+	color:white;
+
+}
+#about .box-icon p{
+	text-align:center;
+	color:white;
+	margin-top:18%;
+	font-size:2em;
+}
+#about .box-icon a:hover{
+	text-decoration:none;
+}
+#service{
+	padding-top:8%;
+	padding-bottom:8%;
+	height:100%;
+	background-color:#30282a;
+}
+
+#service .red-border{
+	width:400px;
+	height:200px;
+	margin: 0 auto;
+	background-color:#f63c3c;
+	color:white;
+	display:block;
+	text-align:center;
+}
+#service i{
+	margin-top:8%;
+}
+footer{
+	margin-top:2%;
+	margin-bottom:2%;
+
+
+}
+footer h4, .h4{
+	
+	border-bottom:5px solid black;
+}
+footer ul{
+	list-style: none;
+	text-align:left;
+
+}
+
+}
+footer .footage{
+	
+	border:3px black solid;
+}
+
+
+@media screen and (max-width:900px){
+	#content2 a{
+		width:30%;
+	}
+	#home button{
+		width:40%;
+		padding:0 2%;
+	}
+	#project .purplebox{
+
+	}
+	#service .red-border{
+		width:190px;
+		height:170px;
+	}
+}
